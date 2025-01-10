@@ -2,8 +2,8 @@ The provided PowerShell script is designed to retrieve firewall rules from a spe
 
 ```powershell
 # Provide Input: Firewall Policy Name, Resource Group, and Rule Collection Group Names
-$fpname = "fwpolicyprodavd1"
-$fprg = "RG-VNET-AVD-PROD-VA-01"
+$fpname = "firewallpolicyname"
+$fprg = "resouece-group-name"
 $rcgNames = @("DefaultNetworkRuleCollectionGroup", "o365_rulecollectiongroup", "DefaultApplicationRuleCollectionGroup") # Add your rule collection group names here
 
 # Get the Firewall Policy
